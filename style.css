@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   width: 300px;
+   height: 500px;
+   box-sizing: border-box;
+   margin: 50px auto;
+   border-radius: 10px;
+   background-color: cornflowerblue ; 
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(42, 44, 48);
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;    
+}
+
+.container-body {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 37, 42);
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 40px; 
+    margin: 5px;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(194, 187, 176);
+    border: none;
+    
+}
+
+input {
+    width: 75%;
+    height: 50%;
+    font-size: 2em;
+    border-radius: 10px 10px 0px 0px;
+    text-align: right;
+    border: none;
+    background: rgb(139, 139, 115);   
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(205, 216, 162);
+    
+}
+
+#clean {
+    border: none;
+    background-color: rgb(240, 163, 19);
+}
+
+.islem {
+    background-color: rgb(47, 84, 109);
+    color: whitesmoke;
+}
+
+#esittir {
+    color: rgb(216, 207, 207);
+    background-color: rgb(65, 151, 151);
+}
+
+
+/* inputa harf girilmesini engellemek istiyorum */
